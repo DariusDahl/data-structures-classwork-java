@@ -16,8 +16,8 @@ public class MergeSortedArrayLists {
     public static void main(String[] args) {
         // Define the sizes of A, B, and C
         int P = 10; // Number of elements in A
-        int Q = 50; // Number of elements in B
-        int R = 100; // Number of elements in C
+        int Q = 25; // Number of elements in B
+        int R = 50; // Number of elements in C
 
         // Initialize A, B, and C with random numbers
         ArrayList<Integer> A = initializeRandomList(P);
