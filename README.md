@@ -13,7 +13,7 @@ The goal of this repository is to demonstrate:
 - File I/O operations for practical data processing tasks.
 
 ### Topics Covered
-- Stack (Array-based)
+- Stack (Array-based and Linked)
 - Binary Tree
 - Recursive Algorithms
 - Simple Linked List
@@ -21,7 +21,7 @@ The goal of this repository is to demonstrate:
 - ArrayList vs LinkedList Benchmark
 - Sorting Algorithms
 - File Reading and Writing
-- Other data structures as the coursework progresses.  
+- Other data structures as the coursework progresses.   
 
 ## Current Projects
 
@@ -46,7 +46,7 @@ The goal of this repository is to demonstrate:
   - Apply recursion to mathematical, combinatorial, and filtering applications.
   - Optimize recursive approaches for computational efficiency.
 
-### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/implementation/)
+### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/linked-list-implementation/)
 - **Overview**: A generic implementation of a singly linked list. This project demonstrates dynamic data manipulation with operations for inserting, deleting, and accessing nodes at specific positions.
 - **Learning Goals**:
   - Understand dynamic memory management via node-based structures.
@@ -82,9 +82,18 @@ The goal of this repository is to demonstrate:
   - Write output to multiple files with automated naming conventions.
   - Calculate expiry dates by manipulating date strings.
 
+### 9. [Linked Stack Implementation](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/linked-stack-implementation/)
+- **Overview**: A linked list-based stack implementation with extended operations including bottom access and removal.  Uses an iterative algorithm to find the largest element by comparing and removing smaller elements from top and bottom.
+- **Learning Goals**:
+  - Implement a stack using linked nodes instead of arrays.
+  - Add custom operations (`bottom()`, `popFromBottom()`) beyond standard stack functionality.
+  - Apply algorithmic problem-solving to find maximum elements through iterative comparison.
+  - Manage custom exception handling for stack overflow and underflow conditions. 
+
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
 
 
 
