@@ -13,7 +13,9 @@ public class FibonacciRecursion {
 
 	public static void main(String[] args) {
 		int n = 10;
-		System.out.println("The Fibonacci number at positon " + n + " is " + Fibonacci(n));
+		for (int i = 0; i <= n; i++) {
+			System.out.println("The Fibonacci number at position " + i + " is " + Fibonacci(i));
+		}
 	}
 }
 
