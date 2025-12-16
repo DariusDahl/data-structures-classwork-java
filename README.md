@@ -15,6 +15,7 @@ The goal of this repository is to demonstrate:
 - Stack (Array-based)
 - Binary Tree
 - Recursive Algorithms
+- Linked List
 - Other data structures as the coursework progresses.
 
 ## Current Projects
@@ -40,8 +41,16 @@ The goal of this repository is to demonstrate:
   - Apply recursion to mathematical and combinatorial applications.
   - Optimize recursive approaches for computational efficiency.
 
+### 4. [Linked List](https://github.com/DariusDahl/java-data-structures-classwork/blob/main/linked-list/)
+- **Overview**: A dynamic implementation of a singly linked list in Java. This project demonstrates node addition, retrieval, and traversal using pointers.
+- **Learning Goals**:
+  - Efficiently manage sequential data with dynamic node addition.
+  - Understand pointer manipulation to link nodes.
+  - Practice error handling for out-of-bound index access.
+
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
 
 
