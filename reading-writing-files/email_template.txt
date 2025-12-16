@@ -1,0 +1,7 @@
+Customer ID: <<CustID>>
+Dear <<Name>>,
+
+As of today, you have <<Points>> reward points. Use them online or at a store near you before they expire on <<ExpiryDate>>.
+
+Thank you for being a loyal customer.
+Store Manager
