@@ -36,10 +36,10 @@ The goal of this repository is to demonstrate:
   - Apply sorting techniques on ArrayList data to enhance understanding.
 
 ### 3. [Recursive Algorithms](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/recursive-algorithms/)
-- **Overview**: A collection of basic recursive solutions for common computational problems. Projects include Fibonacci number calculation, subset generation, and recursive array summation.
+- **Overview**: A collection of recursive solutions for common computational problems. Projects include Fibonacci number calculation, subset generation, recursive array summation, and filtering subsets divisible by 3 or 5.
 - **Learning Goals**:
   - Design and analyze recursive solutions with rigorous base cases.
-  - Apply recursion to mathematical and combinatorial applications.
+  - Apply recursion to mathematical, combinatorial, and filtering applications.
   - Optimize recursive approaches for computational efficiency.
 
 ### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/)
@@ -59,6 +59,7 @@ The goal of this repository is to demonstrate:
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
 
 
 
