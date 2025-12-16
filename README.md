@@ -42,7 +42,7 @@ The goal of this repository is to demonstrate:
   - Apply recursion to mathematical, combinatorial, and filtering applications.
   - Optimize recursive approaches for computational efficiency.
 
-### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/)
+### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/implementation/)
 - **Overview**: A generic implementation of a singly linked list. This project demonstrates dynamic data manipulation with operations for inserting, deleting, and accessing nodes at specific positions.
 - **Learning Goals**:
   - Understand dynamic memory management via node-based structures.
@@ -59,6 +59,7 @@ The goal of this repository is to demonstrate:
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
 
 
 
