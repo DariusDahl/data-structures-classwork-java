@@ -15,8 +15,9 @@ The goal of this repository is to demonstrate:
 - Stack (Array-based)
 - Binary Tree
 - Recursive Algorithms
-- Linked List
+- Simple Linked List
 - Array Bounded Queue
+- ArrayList vs LinkedList Benchmark
 - Other data structures as the coursework progresses.
 
 ## Current Projects
@@ -42,14 +43,21 @@ The goal of this repository is to demonstrate:
   - Apply recursion to mathematical, combinatorial, and filtering applications.
   - Optimize recursive approaches for computational efficiency.
 
-### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/)
+### 4. [Simple Linked List](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/implementation/)
 - **Overview**: A generic implementation of a singly linked list. This project demonstrates dynamic data manipulation with operations for inserting, deleting, and accessing nodes at specific positions.
 - **Learning Goals**:
   - Understand dynamic memory management via node-based structures.
   - Implement pointer manipulation to create and manage linked nodes.
   - Leverage Java generics for flexible data type support.
 
-### 5. [Array Bounded Queue](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/array-bounded-queue/)
+### 5. [ArrayList vs LinkedList Benchmark](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/linked-list/arraylist-vs-linkedlist-benchmark/)
+- **Overview**: A performance benchmark comparing random access and swapping operations between `ArrayList` and `LinkedList`. Demonstrates scalability and trade-offs between direct indexing (`ArrayList`) and sequential traversal (`LinkedList`).
+- **Learning Goals**:
+  - Measure and compare the execution time for random access and swap operations.
+  - Highlight time complexity differences as input sizes scale (`N` values).
+  - Explore the impact of data structure design on performance for large datasets.
+
+### 6. [Array Bounded Queue](https://github.com/DariusDahl/data-structures-classwork-java/blob/main/array-bounded-queue/)
 - **Overview**: A fixed-capacity FIFO (First-In-First-Out) queue implemented using arrays. This project emphasizes exception handling, circular array manipulation, and queue management techniques.
 - **Learning Goals**:
   - Efficiently handle data with queue operations (`enqueue`, `dequeue`) and validation checks (`isEmpty`, `isFull`).
@@ -59,6 +67,8 @@ The goal of this repository is to demonstrate:
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
+
 
 
 
