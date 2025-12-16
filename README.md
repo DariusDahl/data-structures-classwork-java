@@ -14,6 +14,7 @@ The goal of this repository is to demonstrate:
 ### Topics Covered
 - Stack (Array-based)
 - Binary Tree
+- Recursive Algorithms
 - Other data structures as the coursework progresses.
 
 ## Current Projects
@@ -32,7 +33,15 @@ The goal of this repository is to demonstrate:
   - Implement recursive algorithms for search and summation.
   - Apply sorting techniques on ArrayList data to enhance understanding.
 
+### 3. [Recursive Algorithms](https://github.com/DariusDahl/java-data-structures-classwork/blob/main/recursive-algorithms/)
+- **Overview**: A collection of basic recursive solutions for common computational problems. Projects include Fibonacci number calculation, subset generation, and recursive array summation.
+- **Learning Goals**:
+  - Design and analyze recursive solutions with rigorous base cases.
+  - Apply recursion to mathematical and combinatorial applications.
+  - Optimize recursive approaches for computational efficiency.
+
 ---
 
 This repository will grow as I continue to explore more data structures and their functionalities.
+
 
