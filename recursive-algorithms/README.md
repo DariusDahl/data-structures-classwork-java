@@ -1,13 +1,14 @@
-  # Recursive Algorithms
+# Recursive Algorithms
 
-This project provides implementations of fundamental recursive algorithms in Java, focusing on mathematical operations, subsets generation, and array manipulation. It demonstrates the versatility of recursion in problem-solving and algorithm design.
+This project provides implementations of fundamental recursive algorithms in Java, focusing on mathematical operations, subsets generation, and specialized array manipulation. It demonstrates the versatility of recursion in problem-solving and algorithm design.
 
 ## Overview
 
-Recursion is a technique where a function calls itself to solve smaller instances of a problem. This project explores three important use cases of recursion:
+Recursion is a technique where a function calls itself to solve smaller instances of a problem. This project explores four important use cases of recursion:
 1. Fibonacci sequence calculation.
 2. Generating subsets from a set.
 3. Summing elements of an array.
+4. Generating subsets where sums are divisible by 3 or 5.
 
 ### Features
 
@@ -18,10 +19,6 @@ Recursion is a technique where a function calls itself to solve smaller instance
      ```text
      Input: n = 10
      Output: 
-     The Fibonacci number at position 0 is 0
-     The Fibonacci number at position 1 is 1
-     ...
-     The Fibonacci number at position 9 is 34
      The Fibonacci number at position 10 is 55
      ```
 
@@ -64,6 +61,20 @@ Recursion is a technique where a function calls itself to solve smaller instance
      Sum of A is: 17
      ```
 
+#### 4. **Subsets Divisible by 3 or 5**
+   - Generates all subsets of a given array where the sum of the subset's values is divisible by 3 or 5.
+   - Demonstrates specialized filtering using recursion.
+   - Example:
+     ```text
+     Input: A = {2, 3, 5, 1}
+     Output:
+     {3}
+     {5}
+     {2, 3}
+     {3, 5}
+     {1, 2, 5}
+     ```
+
 ### Skills Demonstrated
 
 - **Recursive Problem-Solving**:
@@ -79,6 +90,7 @@ Recursion is a technique where a function calls itself to solve smaller instance
 - **`FibonacciRecursion.java`**: Computes Fibonacci numbers recursively.
 - **`GenerateSubsets.java`**: Generates all subsets of a given set using recursion.
 - **`RecursiveArraySum.java`**: Calculates the sum of an array's elements recursively.
+- **`SubsetsDivisibleBy3Or5.java`**: Generates and filters subsets based on divisibility criteria.
 
 ### How to Run
 
@@ -88,12 +100,14 @@ Recursion is a technique where a function calls itself to solve smaller instance
    javac FibonacciRecursion.java
    javac GenerateSubsets.java
    javac RecursiveArraySum.java
+   javac SubsetsDivisibleBy3Or5.java
    ```
 3. Run the program:
    ```bash
    java FibonacciRecursion
    java GenerateSubsets
    java RecursiveArraySum
+   java SubsetsDivisibleBy3Or5
    ```
 
 ---
